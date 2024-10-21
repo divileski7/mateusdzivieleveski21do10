@@ -1,7 +1,7 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --card-front-color: #543569;
+    --card-back-color: #4987e6;
 }
 
 body {
@@ -10,7 +10,11 @@ body {
 }
 
 #container {
-    display: flex; 
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 3rem;
 }
 
 .cartao {
@@ -74,7 +78,7 @@ body {
 }
 
 footer {
-    background-color: black;
+    background-color: rgba(64, 68, 60, 0.61);
     color: white;
     position: fixed;
     bottom: 0;
